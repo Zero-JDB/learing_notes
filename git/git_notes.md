@@ -105,7 +105,7 @@ id_rsa是私钥，id_rsa.pub是公钥。
 4.查看远程仓库信息 
 >$ git remote origin
 
-4.删除关联的远程仓库 
+5.删除关联的远程仓库 
 >$ git remote rm origin
 
 克隆远程仓库
