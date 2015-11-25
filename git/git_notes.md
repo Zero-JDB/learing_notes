@@ -117,8 +117,9 @@ id_rsa是私钥，id_rsa.pub是公钥。
 推送分支内容
 ------------
 将本地仓库的master分支推送到远程
->$ git push origin master
+>$ git push -u origin master //第一次推送
 
+>$ git push origin master
 
 分支管理
 =========
