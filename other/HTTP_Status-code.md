@@ -164,7 +164,7 @@ HttpServletResponse中的常量代表关联不同标准消息的状态码。在s
 
 414 (Request URI Too Long/请求URI过长)
 ---------------------------------------
-414 (SC_REQUEST_URI_TOO_LONG)状态用于在URI过长的情况时。这里所指的“URI”是指URL中主机、域名及端口号之后的内容。例如：在URL--http://www.y2k-disaster.com:8080/we/look/silly/now/中URI是指/we/look/silly/now/。该状态是新加入 HTTP 1.1的。 
+414 (SC_REQUEST_URI_TOO_LONG)状态用于在URI过长的情况时。这里所指的“URI”是指URL中主机、域名及端口号之后的内容。例如：在URL--[http://www.y2k-disaster.com:8080/we/look/silly/now/](http://www.y2k-disaster.com:8080/we/look/silly/now/)中URI是指/we/look/silly/now/。该状态是新加入 HTTP 1.1的。 
 
 415 (Unsupported Media Type/不支持的媒体格式)
 ---------------------------------------------
