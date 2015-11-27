@@ -1,6 +1,6 @@
 HTTP状态码大全
 ================
-完整的 HTTP 1.1规范说明书来自于RFC 2616，你可以在http://www.talentdigger.cn/home/link.php?url=d3d3LnJmYy1lZGl0b3Iub3JnLw%3D%3D在线查阅。HTTP 1.1的状态码被标记为新特性，因为许多浏览器只支持 HTTP 1.0。你应只把状态码发送给支持 HTTP 1.1的客户端，支持协议版本可以通过调用request.getRequestProtocol来检查。 
+完整的 HTTP 1.1规范说明书来自于RFC 2616，你可以在[http://www.talentdigger.cn/home/link.php?url=d3d3LnJmYy1lZGl0b3Iub3JnLw%3D%3D](http://www.talentdigger.cn/home/link.php?url=d3d3LnJmYy1lZGl0b3Iub3JnLw%3D%3D)在线查阅。HTTP 1.1的状态码被标记为新特性，因为许多浏览器只支持 HTTP 1.0。你应只把状态码发送给支持 HTTP 1.1的客户端，支持协议版本可以通过调用request.getRequestProtocol来检查。 
 
 本部分余下的内容会详细地介绍 HTTP 1.1中的状态码。这些状态码被分为五大类： 
 
@@ -86,7 +86,7 @@ HttpServletResponse中的常量代表关联不同标准消息的状态码。在s
 
 >如果你将用户转向到你的站点的其他页面，用 response.sendRedirect(response.encodeURL(url)) 的方式事先计划好会话跟踪(session tracking)要比只是调用 response.sendRedirect(url) 好的多。 
 
->这个状态码有时可以与301交换使用。例如，如果你错误的访问了http://www.talentdigger.cn/home/link.php?url=aG9zdC9%2BdXNlcg%3D%3D（路径信息不完整），有些服务器就会回复301状态码而有些则回复302。从技术上说，如果最初的请求是GET浏览器只是被假定自动转向。如果想了解更多细节，请看状态码307的讨论。 
+>这个状态码有时可以与301交换使用。例如，如果你错误的访问了[http://www.talentdigger.cn/home/link.php?url=aG9zdC9%2BdXNlcg%3D%3D](http://www.talentdigger.cn/home/link.php?url=aG9zdC9%2BdXNlcg%3D%3D)（路径信息不完整），有些服务器就会回复301状态码而有些则回复302。从技术上说，如果最初的请求是GET浏览器只是被假定自动转向。如果想了解更多细节，请看状态码307的讨论。 
 
 303 (See Other/参见其他信息)
 -----------------------------
