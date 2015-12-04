@@ -142,3 +142,6 @@ Sublime Text 3非常实用，但是想要用好，一些快捷键不可或缺，
 ============
 1.安裝tag插件
 >在需要格式化的HTML代码中，选中代码，然后按Ctrl+Alt+F对代码进行格式化。
+
+2.安装html-css-js prettify 插件
+>需提前安装node.js,选中需要格式化的html、css、js代码，使用ctrl+shift+H进行格式化。
