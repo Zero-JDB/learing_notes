@@ -7,13 +7,13 @@ alias  Object
 
 * 别名配置，配置之后可在模块中使用require调用 require('jquery');
 
-  seajs.config({
-    alias: { 'jquery': 'jquery/jquery/1.10.1/jquery' }
-  });
-  define(function(require, exports, module) {
-    //引用jQuery模块
-    var $ = require('jquery');
-  });
+        seajs.config({
+          alias: { 'jquery': 'jquery/jquery/1.10.1/jquery' }
+        });
+        define(function(require, exports, module) {
+          //引用jQuery模块
+          var $ = require('jquery');
+        });
 
 paths  Object
 --------------
