@@ -122,7 +122,7 @@ base  String
 charset   String | Function
 ---------------------------
 
-* 获取模块文件时，<script> 或 <link> 标签的charset属性。 默认是utf-8
+* 获取模块文件时，&lt; script &gt; 或 &lt; link &gt; 标签的charset属性。 默认是utf-8
 
 * charset还可以是一个函数：
 
