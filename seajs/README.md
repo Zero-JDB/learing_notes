@@ -7,36 +7,35 @@ alias  Object
 
 * 别名配置，配置之后可在模块中使用require调用 require('jquery');
 
-    seajs.config({
-        alias: { 'jquery': 'jquery/jquery/1.10.1/jquery' }
-    });
-
-    define(function(require, exports, module) {
-        //引用jQuery模块
-        var $ = require('jquery');
-    });
+  seajs.config({
+    alias: { 'jquery': 'jquery/jquery/1.10.1/jquery' }
+  });
+  define(function(require, exports, module) {
+    //引用jQuery模块
+    var $ = require('jquery');
+  });
 
 paths  Object
 --------------
 
 * 设置路径，方便跨目录调用。通过灵活的设置path可以在不影响base的情况下指定到某个目录。
 
-    seajs.config({
-        //设置路径
-        paths: {
-            'gallery': 'https://a.alipayobjects.com/gallery'
-        },
+  seajs.config({
+    //设置路径
+    paths: {
+     'gallery': 'https://a.alipayobjects.com/gallery'
+    },
 
-        // 设置别名，方便调用
-        alias: {
-            'underscore': 'gallery/underscore'
-        }
-    });
+    // 设置别名，方便调用
+    alias: {
+    'underscore': 'gallery/underscore'
+      }
+  });
 
-    define(function(require, exports, module) {
-        var _ = require('underscore');
-        //=> 加载的是 https://a.alipayobjects.com/gallery/underscore.js
-    });
+  define(function(require, exports, module) {
+    var _ = require('underscore');
+    //=> 加载的是 https://a.alipayobjects.com/gallery/underscore.js
+  });
 
 vars  Object
 ------------
